@@ -27,7 +27,7 @@ struct HomeViewController: View {
                 // All currencies
                 AllCurrencies(viewModel: viewModel)
             }
-            .navigationTitle("Live Feed")
+            .navigationTitle("Overview")
         }
     }
 }
