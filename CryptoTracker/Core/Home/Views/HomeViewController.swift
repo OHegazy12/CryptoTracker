@@ -19,6 +19,11 @@ struct HomeViewController: View {
                 
                 Divider()
                 
+                // Coldest currencies
+                ColdestCurrencyViewController(viewModel: viewModel)
+                
+                Divider()
+                
                 // All currencies
                 AllCurrencies(viewModel: viewModel)
             }

@@ -20,6 +20,8 @@
 		18BA0E5C2A634CA9000A14AE /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA0E5B2A634CA9000A14AE /* Crypto.swift */; };
 		18F539782A64A0EB0024EE87 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 18F539772A64A0EB0024EE87 /* Kingfisher */; };
 		18F5397A2A64A26D0024EE87 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F539792A64A26D0024EE87 /* Double.swift */; };
+		18F5397C2A64BF690024EE87 /* ColdestCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5397B2A64BF690024EE87 /* ColdestCurrencyViewController.swift */; };
+		18F5397E2A64BF7E0024EE87 /* ColdestCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5397D2A64BF7E0024EE87 /* ColdestCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		18BA0E592A63473D000A14AE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		18BA0E5B2A634CA9000A14AE /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		18F539792A64A26D0024EE87 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		18F5397B2A64BF690024EE87 /* ColdestCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdestCurrencyViewController.swift; sourceTree = "<group>"; };
+		18F5397D2A64BF7E0024EE87 /* ColdestCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdestCurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				18BA0E4F2A631A09000A14AE /* HomeViewController.swift */,
 				18BA0E512A631AE5000A14AE /* HottestCurrencyViewController.swift */,
 				18BA0E532A631AFE000A14AE /* HottestCurrency.swift */,
+				18F5397B2A64BF690024EE87 /* ColdestCurrencyViewController.swift */,
+				18F5397D2A64BF7E0024EE87 /* ColdestCurrency.swift */,
 				18BA0E552A6335DA000A14AE /* AllCurrencies.swift */,
 				18BA0E572A6335E3000A14AE /* CurrencyRow.swift */,
 			);
@@ -236,7 +242,9 @@
 				18BA0E582A6335E3000A14AE /* CurrencyRow.swift in Sources */,
 				18BA0E562A6335DA000A14AE /* AllCurrencies.swift in Sources */,
 				18BA0E3B2A6317D0000A14AE /* ContentView.swift in Sources */,
+				18F5397C2A64BF690024EE87 /* ColdestCurrencyViewController.swift in Sources */,
 				18BA0E5C2A634CA9000A14AE /* Crypto.swift in Sources */,
+				18F5397E2A64BF7E0024EE87 /* ColdestCurrency.swift in Sources */,
 				18BA0E5A2A63473D000A14AE /* HomeViewModel.swift in Sources */,
 				18BA0E392A6317D0000A14AE /* CryptoTrackerApp.swift in Sources */,
 				18BA0E542A631AFE000A14AE /* HottestCurrency.swift in Sources */,

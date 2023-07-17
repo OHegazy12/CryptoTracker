@@ -10,6 +10,7 @@ import SwiftUI
 class HomeViewModel: ObservableObject {
     @Published var crypto = [Crypto]()
     @Published var topRisingCrypto = [Crypto]()
+    @Published var topFallingCrypto = [Crypto]()
     
     init() {
         fetchCryptoData()
@@ -41,6 +42,7 @@ class HomeViewModel: ObservableObject {
                 DispatchQueue.main.async {
                     self.crypto = crypto
                     self.configureHottestRisingCrypto()
+                    self.configureBiggestFallingCrypto()
                 }
             }
             catch let error {
@@ -53,5 +55,10 @@ class HomeViewModel: ObservableObject {
     func configureHottestRisingCrypto() {
         let biggestRisers = crypto.sorted(by: {$0.priceChangePercentage24H > $1.priceChangePercentage24H})
         self.topRisingCrypto = Array(biggestRisers.prefix(5))
+    }
+    
+    func configureBiggestFallingCrypto() {
+        let biggestFallers = crypto.sorted(by: {$0.priceChangePercentage24H < $1.priceChangePercentage24H})
+        self.topFallingCrypto = Array(biggestFallers.prefix(5))
     }
 }
